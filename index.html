@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>オセロゲーム</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>オセロゲーム</h1>
-        
-        <div class="game-info">
-            <div class="player-info">
-                <div class="current-player">
-                    現在のプレイヤー: <span id="current-player">黒</span>
-                </div>
-                <div class="score">
-                    <span class="black-score">黒: <span id="black-count">2</span></span>
-                    <span class="white-score">白: <span id="white-count">2</span></span>
-                </div>
-            </div>
-            <button id="new-game-btn" class="new-game-btn">新しいゲーム</button>
-        </div>
+      <h1>オセロゲーム</h1>
 
-        <div class="board-container">
-            <div id="game-board" class="game-board"></div>
+      <div class="game-info">
+        <div class="player-info">
+          <div class="current-player">
+            現在のプレイヤー: <span id="current-player">黒</span>
+          </div>
+          <div class="score">
+            <span class="black-score">黒: <span id="black-count">2</span></span>
+            <span class="white-score">白: <span id="white-count">2</span></span>
+          </div>
         </div>
+        <button id="new-game-btn" class="new-game-btn">新しいゲーム</button>
+      </div>
 
-        <div class="game-status">
-            <div id="game-message" class="game-message"></div>
-            <div id="valid-moves" class="valid-moves"></div>
-        </div>
+      <div class="board-container">
+        <div id="game-board" class="game-board"></div>
+      </div>
+
+      <div class="game-status">
+        <div id="game-message" class="game-message"></div>
+        <div id="valid-moves" class="valid-moves"></div>
+      </div>
     </div>
 
+    <script src="othello.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
