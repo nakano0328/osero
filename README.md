@@ -28,7 +28,7 @@ cd osero
 ```
 osero/
 ├── index.html     # メインHTMLファイル
-├── osero.js       # オセロゲームのロジック（Othelloクラス）
+├── othello.js     # オセロゲームのロジック（Othelloクラス）
 ├── script.js      # UI制御とゲーム管理（OthelloGameクラス）
 ├── style.css      # スタイリング
 └── README.md      # このファイル
@@ -68,7 +68,7 @@ osero/
 
 ### ボードサイズの変更
 
-`osero.js` の `Othello` クラスでボードサイズを変更可能（デフォルト: 8x8）
+`othello.js` の `Othello` クラスでボードサイズを変更可能（デフォルト: 8x8）
 
 ## 📄 ライセンス
 
