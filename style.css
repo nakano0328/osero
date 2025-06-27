@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #eb8787 0%, #cf5d5d 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -58,7 +58,8 @@ h1 {
     gap: 20px;
 }
 
-.black-score, .white-score {
+.black-score,
+.white-score {
     padding: 8px 15px;
     border-radius: 20px;
     font-weight: bold;
@@ -184,9 +185,17 @@ h1 {
 }
 
 @keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.7; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 768px) {
@@ -194,30 +203,29 @@ h1 {
         margin: 20px;
         padding: 20px;
     }
-    
+
     .game-board {
         grid-template-columns: repeat(8, 45px);
         grid-template-rows: repeat(8, 45px);
     }
-    
+
     .cell {
         width: 45px;
         height: 45px;
     }
-    
+
     .piece {
         width: 35px;
         height: 35px;
     }
-    
+
     h1 {
         font-size: 2em;
     }
-    
+
     .game-info {
         flex-direction: column;
         gap: 15px;
         text-align: center;
     }
 }
-
