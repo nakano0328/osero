@@ -19,14 +19,14 @@ Web ブラウザで動作するオセロ（リバーシ）ゲームです。ク�
 
 ```bash
 git clone <リポジトリURL>
-cd osero
+cd othello
 # index.htmlをブラウザで開く
 ```
 
 ## 📁 ファイル構成
 
 ```
-osero/
+othello/
 ├── index.html     # メインHTMLファイル
 ├── othello.js     # オセロゲームのロジック（Othelloクラス）
 ├── script.js      # UI制御とゲーム管理（OthelloGameクラス）
